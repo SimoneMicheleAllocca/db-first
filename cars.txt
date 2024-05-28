@@ -1,0 +1,13 @@
+CARS
+ COLONNE                TIPO DI DATO                           ATTRIBUTI
+id                      UNSEGNAD INT (no numeri negativi)      PRIMARY_KEY (NOTNULL, UNIQUE) 
+marca                   Varchar                                NOTNULL                                 
+modello                 Varchar                                NOTNULL
+anno                    Year                                   NOTNULL
+km                      UNSEGNAND INT                          NOTNULL
+colore                  Varchar                                NOTNULL
+prezzo                  Decimal                                
+stato                   Varchar                                NOTNULL
+descrizione             text                                   NOTNULL
+data_inserimento        date                                   NOTNULL
+disponibile             boolean                                NOTNULL
